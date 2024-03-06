@@ -92,7 +92,7 @@ public class Conta {
                 System.out.println("Opcao invalida");
             }
         }while(true);
-        }
+    }
     
     public static void main(String[] args)throws Exception {
         Conta conta1 = new Conta(0, 0, 0);
@@ -102,10 +102,10 @@ public class Conta {
 
         conta1.menu();
 
-        conta1.status();
+        //conta1.status();
 
         //conta1.deposito();
-        conta1.status();
+        //conta1.status();
     }
     
 }
